@@ -1,0 +1,100 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+}
+
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+header{
+	background: url(../img/first-bg.jpg) no-repeat center top /cover;
+	/*height: 600px;*/
+	/*padding-bottom: 160px;*/
+	height: 100vh; /*подгон под размер монитора*/
+}
+
+.container{
+	width: 930px;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+}
+
+.title_first{
+		font-size: 40px;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		margin-top: 180px;
+}
+
+
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.button1{
+	background: #fe4d12;
+	color: #484543;
+	border-radius: 5px;
+	display: block;
+	width: 249px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+
+	text-align: center;
+	font-size: 18px;
+	margin-top: 150px;
+	text-transform: uppercase;
+}
+
+title{
+	padding-top: 115px;S
+	}
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+#about{
+	padding-bottom: 120px;
+	background: #f7f7f7f7;
+}
+
+.aboutRow1 img{
+	border: solid;
+	border-width: 20px;
+	/*border-color: #700000;*/
+}
+
+/*границы элемента*/
+*{
+	/*border: 1px solid red;*/
+}
