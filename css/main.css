@@ -84,7 +84,7 @@ title{
 }
 
 #about{
-	padding-bottom: 120px;
+	padding-bottom: 10px;
 	background: #f7f7f7f7;
 }
 
@@ -94,7 +94,11 @@ title{
 	/*border-color: #700000;*/
 }
 
+.aboutRow2 img{
+	margin: 1%;
+}
 /*границы элемента*/
+
 *{
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 }
