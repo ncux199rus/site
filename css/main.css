@@ -73,7 +73,7 @@ h1{
 }
 
 title{
-	padding-top: 115px;S
+	padding-top: 115p1x
 	}
 .title h2{
 	font-size: 40px;
@@ -84,8 +84,8 @@ title{
 }
 
 #about{
-	padding-bottom: 10px;
-	background: #f7f7f7f7;
+	padding-bottom: 150px;
+	background: #8FBC8F;
 }
 
 .aboutRow1 img{
@@ -96,6 +96,25 @@ title{
 
 .aboutRow2 img{
 	margin: 1%;
+}
+
+#galery{
+	padding-bottom: 150px;
+	background: #A9A9A9;
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+}
+
+#galery .photos img{
+	left: 0;
+	width: 100%;
+	opacity: 0;
+    transition: opacity 1s;
+}
+
+#galery .photos img.showed{
+	opacity: 1;
 }
 /*границы элемента*/
 
